@@ -1,5 +1,5 @@
 "use client";
-import { ChakraProvider } from "@chakra-ui/react";
+import Providers from "./providers";
 import { theme } from "./styles/theme";
 import { Inter } from "next/font/google";
 import Nav from "../app/components/Navbar/Nav";
@@ -18,9 +18,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <ChakraProvider theme={theme}>
-          <Nav>{children}</Nav>
-        </ChakraProvider>
+        <Providers theme={theme}>
+          <Nav />
+          {children}
+        </Providers>
       </body>
     </html>
   );
