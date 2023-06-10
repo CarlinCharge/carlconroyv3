@@ -33,7 +33,14 @@ export default function Bio() {
         </Text>
       </Box>
       <Box>
-        <Link href={url} fontWeight="bold">
+        <Link
+          href={url}
+          fontWeight="bold"
+          _hover={{
+            color: "#A970FF",
+            textDecoration: "underline",
+          }}
+        >
           Carl Conroy Design{" "}
         </Link>
         <Text>
