@@ -14,6 +14,7 @@ export const theme = extendTheme({
   fonts: {
     heading: "Montserrat",
     body: "Montserrat",
+    text: "Montserrat",
   },
   colors: {
     green: "#7CEA9C",

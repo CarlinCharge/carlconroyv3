@@ -1,6 +1,6 @@
 "use client";
 import Head from "next/head";
-import { Flex, Heading, Container } from "@chakra-ui/react";
+import { Flex, Heading } from "@chakra-ui/react";
 
 export default function Home() {
   return (
